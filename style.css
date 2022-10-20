@@ -1,0 +1,28 @@
+/* ex1 */
+
+h2{
+    margin: 5px 200px;
+}
+table, th, td{
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* ex2 */
+.ex2{
+    width: 180px;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 10%;
+}
+input, select{
+    margin: 10px 0 ;
+}
+
+/* about me */
+img {
+    width: 200px;
+    height: 300px;
+}
+
