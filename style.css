@@ -1,28 +1,52 @@
-/* ex1 */
+@import url('https://fonts.googleapis.com/css2?family=Dancing Script:wght@300;400&display=swap');
 
-h2{
-    margin: 5px 200px;
+*{
+    font-family: 'Dancing Script', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    text-decoration: none;
 }
-table, th, td{
-    padding: 5px;
-    border: 1px solid black;
+header{
+    width: 100%;    
     text-align: center;
+    justify-content: space-around;
+    padding: 20px;
 }
-
-/* ex2 */
-.ex2{
-    width: 180px;
-    padding: 10px;
-    border: 2px solid red;
-    border-radius: 10%;
+#menu li{
+    display: inline;
+    margin-right: 20px;
 }
-input, select{
-    margin: 10px 0 ;
+.name{
+    width: 100vw;
+    height: 500px;
+    background-image: url(./images/backorange.png);
+    background-repeat: repeat-x;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 80px;
 }
-
-/* about me */
+.quote{
+    width: 100vw;
+    height: 400px;
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+    color: rgb(174, 93, 11);  
+}
+.photo{
+    width: 100vw;
+    height: 500px;
+    background: linear-gradient(40deg, #f7c437, #f88e02ec); 
+       
+}
 img {
-    width: 200px;
-    height: 300px;
+    border-radius: 20px;
 }
-
+footer{
+    width: 100vw;
+    height: 200px;
+    justify-content: space-around;
+    padding-top: 30px;
+}
