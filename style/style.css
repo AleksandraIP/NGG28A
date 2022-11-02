@@ -17,7 +17,7 @@
 .name{
     width: 100vw;
     height: 500px;
-    background-image: url(./images/backorange.png);
+    background-image: url(../images/backorange.png);
     background-repeat: repeat-x;
     display: table-cell;
     vertical-align: middle;
