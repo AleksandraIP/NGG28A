@@ -25,9 +25,9 @@ function setHeader(){
     header.style.justifyContent = 'space-around'; 
     header.style.fontSize = '25px';
     header.style.width = '100%';
-    header.style.height = '100px';
+    header.style.height = '60px';
     header.style.textAlign = 'center';
-    header.style.padding = '20px';
+    header.style.marginTop = '20px';
     document.body.insertAdjacentElement('afterbegin', header);
 }
 setHeader();
