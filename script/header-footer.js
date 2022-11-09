@@ -1,12 +1,11 @@
 let headerText = `
-    <a href="main.html" id="main" style="color: rgb(174, 93, 11);">OLEKSANDRA</a>
+    <a class="page" href="main.html" id="main" style="color: rgb(174, 93, 11);">OLEKSANDRA</a>
     <ul id="menu">
-      <li><a href="about.html" style="color: rgb(174, 93, 11);">ABOUT</a></li>
-      <li><a href="projects.html" style="color: rgb(174, 93, 11);">PROJECTS</a></li>
-      <li><a href="contact.html" style="color: rgb(174, 93, 11);">CONTACT</a></li>
+      <li><a class="page" href="about.html" style="color: rgb(174, 93, 11);">ABOUT</a></li>
+      <li><a class="page" href="projects.html" style="color: rgb(174, 93, 11);">PROJECTS</a></li>
+      <li><a class="page" href="contact.html" style="color: rgb(174, 93, 11);">CONTACT</a></li>
     </ul>
 `
-
 let footerText = `
       <div class="social">
          <p style="font-size: 30px;color: rgb(174, 93, 11);">Follow me in Social Media</p>
@@ -31,6 +30,12 @@ function setHeader(){
     document.body.insertAdjacentElement('afterbegin', header);
 }
 setHeader();
+
+document.querySelectorAll('.page').forEach((el)=> {
+  if ( window.location.pathname.indexOf(el.getAttribute('href')) > -1 ) {
+      el.classList.add('active');
+  }
+});
 
 function setFooter(){
     let footer = document.createElement('footer');

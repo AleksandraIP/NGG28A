@@ -11,6 +11,10 @@
     display: inline;
     margin-right: 20px;
 }
+.active{
+    font-size: 35px;
+    font-weight: bold;
+}
 .name h1{
     font-size: 100px;    
 }
@@ -52,8 +56,49 @@ img {
     margin: 10px 0 10px 20px;
 }
 #education, th, td{
-    border: 1px solid rgb(174, 93, 11);
+    border: 1px solid #ae5d0b;
     padding: 7px;
     margin: auto;
     font-size: 20px;
 } 
+
+.form{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(40deg, #f7c437, #f88e02ec);
+    /* background-image: url(../images/msg1.png); */
+    position: relative;
+}
+.contactform{
+    position: absolute;
+    /* background: #ae5d0b; */
+    top: 15%;
+    right: 20%;
+    width: 60%;
+    text-align: center;
+    padding: 20px;
+}
+.text{
+    width: 60%;
+    font-size: 18px;
+    border: 1px solid #ae5d0b; 
+    border-radius: 10px;
+    padding: 5px;
+    background: #fbd260;
+}
+.text:focus{
+    outline: none;
+    background: #e4be98; 
+}
+.msg1{
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    transform: rotate(20deg);
+}
+.msg2{
+    width: 380px;
+    position: absolute;
+    top: 10%;
+    left: 4%;
+}
