@@ -1,20 +1,20 @@
 let headerText = `
-    <a class="page" href="main.html" id="main" style="color: rgb(174, 93, 11);">OLEKSANDRA</a>
+    <a class="page" href="main.html" id="main" style="color: rgb(35, 6, 117);">OLEKSANDRA POPOVA</a>
     <ul id="menu">
-      <li><a class="page" href="about.html" style="color: rgb(174, 93, 11);">ABOUT</a></li>
-      <li><a class="page" href="projects.html" style="color: rgb(174, 93, 11);">PROJECTS</a></li>
-      <li><a class="page" href="contact.html" style="color: rgb(174, 93, 11);">CONTACT</a></li>
+      <li><a class="page" href="about.html" style="color: rgb(35, 6, 117);" >ABOUT</a></li>
+      <li><a class="page" href="projects.html" style="color: rgb(35, 6, 117);" >PROJECTS</a></li>
+      <li><a class="page" href="contact.html" style="color: rgb(35, 6, 117);">CONTACT</a></li>
     </ul>
 `
 let footerText = `
       <div class="social">
-         <p style="font-size: 30px;color: rgb(174, 93, 11);">Follow me in Social Media</p>
-         <a href="https://www.instagram.com/sandra_p0p0va/" style="font-size: 20px;color: black;">Instagram</a>
+         <p style="font-size: 30px; margin-bottom:0;">Follow me in Social Media</p>
+         <a href="https://www.instagram.com/sandra_p0p0va/" style="font-size: 20px;color: rgb(35, 6, 117);">Instagram</a>
       </div>
       <div class="contact">
-        <p style="font-size: 30px;color: rgb(174, 93, 11);">Contact</p>
-        <p style="font-size: 20px;">079 111 11 11</p>
-        <p style="font-size: 20px;">aleksandraip@ukr.net</p>
+        <p style="font-size: 30px; margin-bottom:0;">Contact</p>
+        <p style="font-size: 20px; margin-bottom:0;">079 111 11 11</p>
+        <p style="font-size: 20px; margin-bottom:0;">aleksandraip@ukr.net</p>
       </div>`
 
 function setHeader(){ 
@@ -43,8 +43,7 @@ function setFooter(){
     footer.style.display = 'flex';
     footer.style.justifyContent = 'space-around';
     footer.style.width = '100%';
-    footer.style.height = '200px';
-    footer.style.paddingTop = '30px';
+    footer.style.paddingTop = '10px';
     document.body.insertAdjacentElement('beforeend', footer);
 }
 setFooter();
